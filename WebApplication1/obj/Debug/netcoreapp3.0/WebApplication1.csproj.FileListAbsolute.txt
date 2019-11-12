@@ -47,3 +47,5 @@ C:\Desarrollo\BlazorTuto1\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication
 C:\Desarrollo\BlazorTuto1\WebApplication1\obj\Debug\netcoreapp3.0\WebApplication1.csproj.CopyComplete
 C:\Desarrollo\BlazorTuto1\WebApplication1\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Latency.razor.g.cs
 C:\Desarrollo\BlazorTuto1\WebApplication1\obj\Debug\netcoreapp3.0\Razor\Pages\Latency.razor.g.cs
+C:\Desarrollo\BlazorTuto1\WebApplication1\obj\Debug\netcoreapp3.0\RazorDeclaration\Pages\Todo.razor.g.cs
+C:\Desarrollo\BlazorTuto1\WebApplication1\obj\Debug\netcoreapp3.0\Razor\Pages\Todo.razor.g.cs
