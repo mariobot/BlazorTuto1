@@ -1,0 +1,27 @@
+@page "/latency"
+
+@inject IJSRuntime JS
+
+<p>Actual Latency rate between the browser and server is: </p>
+
+@if (latency is null)
+{
+    <span>Calculating...</span>
+}
+else
+{
+    <span style="color:red">@(latency.Value.TotalMilliseconds)ms</span>
+}
+
+@code
+{
+    private DateTime startTime;
+    private TimeSpan? latency;
+
+    protected override async Task OnInitializedAsync()
+    {
+        startTime = DateTime.UtcNow;
+        var _ = await JS.InvokeAsync<string>("toString");
+        latency = DateTime.UtcNow - startTime;
+    }
+}
